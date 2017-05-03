@@ -1,0 +1,26 @@
+{
+  "name": "loghistory",
+  "version": "1.0.0",
+  "description": "Join logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test --recursive --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/unsegnor/loghistory.git"
+  },
+  "keywords": [
+    "log"
+  ],
+  "author": "Víctor Calatayud Asensio",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/unsegnor/loghistory/issues"
+  },
+  "homepage": "https://github.com/unsegnor/loghistory#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
